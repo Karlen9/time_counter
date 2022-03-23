@@ -1,0 +1,29 @@
+{
+  "name": "time_counter",
+  "version": "1.0.0",
+  "description": "This is my future telegram bot for count time spent in office",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Karlen9/time_counter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Karlen9/time_counter/issues"
+  },
+  "homepage": "https://github.com/Karlen9/time_counter#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "telegraf": "^4.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "type": "module"
+}
